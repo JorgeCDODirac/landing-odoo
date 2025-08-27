@@ -1,0 +1,221 @@
+.logo {
+  max-width: 200px;
+}
+body {
+  color: #696969;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.textos {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.tA {
+  color: #004b93;
+}
+.fA {
+  background: #004b93;
+}
+.cAF {
+  color: #013b73;
+}
+.tNa {
+  color: #ff9300;
+}
+.fNa {
+  background: #ff9300;
+}
+.fAC {
+  background: #eff3f6;
+}
+.tAF {
+  background: #013b73;
+}
+.tN {
+  color: #000;
+}
+.fB {
+  background: #fef6ea;
+}
+.marcas {
+  max-width: 200px;
+  width: max-content;
+}
+h5 {
+  &.titulosMini {
+    font-size: 24px;
+  }
+}
+h3 {
+  &.titulos {
+    font-size: 24px;
+  }
+}
+h2 {
+  &.titulos {
+    font-size: 28px;
+    &.light {
+      font-weight: 300;
+    }
+  }
+}
+header {
+  nav {
+    background: linear-gradient(270.01deg, #003a72 0.01%, #004b93 99.99%);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+}
+.slider {
+  padding: 60px 0;
+}
+.cajita {
+  padding: 15px;
+  border-radius: 10px;
+  border-color: rgb(254, 246, 234);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px;
+}
+.circuloNaranja {
+  background: #004b93;
+  border-radius: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: normal;
+}
+.textoErp h3 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.textoErp {
+  h3 {
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+.elementosConLinea {
+  max-width: 100%;
+}
+.form-control {
+  padding: 10px 0;
+}
+
+.cajita {
+  .icon {
+    font-size: 25px;
+  }
+  .tituloCajita {
+    font-size: 16px;
+  }
+  .textoBloque {
+    .textos {
+      line-height: 16px;
+    }
+  }
+  .img {
+    img {
+      max-width: 70px;
+    }
+  }
+  &.minHeight {
+    min-height: 260px;
+    padding-bottom: 0;
+  }
+}
+.btn-custom {
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+  width: max-content;
+  z-index: 999;
+  &:hover {
+    background: #116cc2;
+  }
+}
+.italic {
+  font-style: italic;
+}
+.iconLineas {
+  width: 60px;
+  height: 60px;
+  i {
+    font-size: 30px;
+  }
+}
+.lineas {
+  border-top: 2px solid #000;
+  opacity: 1;
+}
+.elementosConLinea {
+  display: block !important;
+}
+footer {
+  .redes {
+    a {
+      margin: 10px 0;
+      text-decoration: none;
+      &:nth-child(1) {
+        font-size: 20px;
+        display: block;
+      }
+      font-size: 30px;
+    }
+  }
+}
+@media (min-width: 576px) {
+  /* sm */
+  footer {
+    .odoo-logo-footer {
+      max-width: 200px;
+      width: 100%;
+    }
+  }
+  .elementosConLinea {
+    max-width: 500px;
+  }
+  .elementosConLinea {
+    display: flex !important;
+  }
+  .video {
+    max-width: 630px;
+  }
+}
+@media (min-width: 768px) {
+  /* md */
+  .elementosConLinea {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  /* lg */
+  .cajita {
+    .icon {
+      font-size: 45px;
+    }
+    .tituloCajita {
+      font-size: 22px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  /* xl */
+  .elementosConLinea {
+    max-width: 850px;
+  }
+}
+@media (min-width: 1400px) {
+  /* xxl */
+  .elementosConLinea {
+    max-width: 950px;
+  }
+}
